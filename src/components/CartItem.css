@@ -1,0 +1,27 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+}
+
+.cart-item__price {
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.cart-item__remove {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-item__remove:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,36 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+}
+
+.product-card__image {
+  width: 100%;
+  height: auto;
+}
+
+.product-card__name {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.product-card__price {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.product-card__btn {
+  margin: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.product-card__btn:hover {
+  opacity: 0.85;
+}
